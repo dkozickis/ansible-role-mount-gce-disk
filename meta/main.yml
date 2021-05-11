@@ -1,0 +1,9 @@
+---
+galaxy_info:
+  author: dkozickis
+  license: MIT
+  min_ansible_version: 2.1
+  galaxy_tags:
+    - gce
+
+dependencies: []
