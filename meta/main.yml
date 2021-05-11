@@ -2,7 +2,15 @@
 galaxy_info:
   author: dkozickis
   license: MIT
+  role_name: mount_gce_disk
+  description: Mount GCE Drives
   min_ansible_version: 2.1
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+        - bionic
   galaxy_tags:
     - gce
 
