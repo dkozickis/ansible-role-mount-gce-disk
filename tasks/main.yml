@@ -1,6 +1,6 @@
 ---
 - name: Check if disk exists
-  command: "file -sL /dev/disk/by-id/google-{{ disk_name }}"
+  command: "file -sL {{ disk_name }}"
   register: disk_exists
   changed_when: "'UUID=' not in disk_exists.stdout"
 
