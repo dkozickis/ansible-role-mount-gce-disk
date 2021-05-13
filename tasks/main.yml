@@ -20,7 +20,7 @@
 - name: Mount drive
   mount:
     path: "{{ mount_directory }}"
-    src: "/dev/disk/by-id/google-{{ disk_name }}"
+    src: "{{ disk_name }}"
     fstype: ext4
     opts: discard,defaults,nofail
     dump: "0"
